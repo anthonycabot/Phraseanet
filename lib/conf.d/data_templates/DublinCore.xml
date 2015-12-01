@@ -200,8 +200,8 @@
         <Comments src="" business="1" report="0" />
         <Filename src="Phraseanet:tf-basename" readonly="1" type="text" report="1"/>
         <CameraDevice src="IFD0:Model" readonly="1" report="0" />
-        <Latitude src="GPS:GPSLatitude" readonly="1" report="0" />
-        <Longitude src="GPS:GPSLongitude" readonly="1" report="0"/>
+        <Latitude src="GPS:GPSLatitude" readonly="1" report="0" type="number" />
+        <Longitude src="GPS:GPSLongitude" readonly="1" report="0" type="number"/>
         <ArchiveDate src="Phraseanet:tf-archivedate" readonly="1" type="date" report="0" />
         <LastEditDate src="Phraseanet:tf-editdate" readonly="1" type="date" report="0" />
     </description>
